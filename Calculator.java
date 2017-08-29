@@ -168,7 +168,7 @@ public class Calculator {
 		default: return 0;
 		}
 	}
-//Round method is excerpted Stack Overload
+//Round method is excerpted from Stack Overload
 	public static double round(double value, int places) {
 	    if (places < 0) throw new IllegalArgumentException();
 	    long factor = (long) Math.pow(10, places);
